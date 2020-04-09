@@ -12,7 +12,7 @@ public class Demo {
 	@Test
 	public void testDemo()
 	{
-	System.setProperty("webdriver.gecko.driver", "C:\\Users\\kreddiha\\Desktop\\Demo\\chromedriver_win32\\geckodriver.exe");
+	System.setProperty("webdriver.gecko.driver", "C:\\Users\\kreddiha\\Desktop\\Selenium_2020\\MAVEN\\Java_Maven\\Driver\\geckodriver.exe");
 	WebDriver driver=new FirefoxDriver();
     driver.get("https://www.google.com/");
 		LoginPage l=new LoginPage(driver);
